@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<config>
+		<navigation>libre</navigation><!--libre ou guidee-->
+		<lexique>on</lexique><!--on ou off-->
+		<pdf>on</pdf><!--on ou off-->
+		<scores>on</scores><!--on ou off-->
+		<version>local</version><!-- 1.2, 2004, ou local-->
+	</config>
+	<ecrans>
+		<ecran file="medias/swf/01.swf" istoc="true">Ecran 1</ecran>
+		<ecran file="medias/swf/02.swf" istoc="true">Ecran 2</ecran>
+		<ecran file="medias/swf/03.swf" istoc="true">Quiz</ecran>
+	</ecrans>
+</root>

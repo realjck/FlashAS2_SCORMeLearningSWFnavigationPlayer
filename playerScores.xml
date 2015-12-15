@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<succes>80</succes><!--score global de reussite-->
+	<ponderations><!-- pondérations de chacun des scores-->
+		<score>1</score>
+	</ponderations>
+</root>

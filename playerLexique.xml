@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+- les mots ne doivent pas commencer par des accents
+- possibilité d'utiliser des numéros comme première lettre
+- pas de nécessité de classer par ordre alphabétique, le code s'en charge
+-->
+<root>
+	<entry mot="Jedi">a person who claims to live according to a philosophy based on that of the fictional Jedi, a caste of wizards in the Star Wars  series of films by George Lucas, US film director</entry>
+	<entry mot="Awesome">Slang. very impressive: That new white convertible is totally awesome.</entry>
+	<entry mot="6 Sigma">Six Sigma is a business management strategy originally developed by Motorola, USA in 1986. As of 2010, it is widely used in many sectors of industry, although its use is not without controversy.</entry>
+	<entry mot="Acid Jazz">a type of music combining jazz, soul, rhythm and blues, funk, and hip-hop; also called jazz vibes</entry>
+</root>

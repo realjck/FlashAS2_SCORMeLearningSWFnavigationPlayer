@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- l'attribut "actif" définit si le pdf est cliquable ou pas au lancement du module-->
+<root>
+	<pdf url="medias/pdf/test.pdf" actif="true">PDF</pdf>
+	<pdf url="medias/pdf/test.pdf" actif="true">PDF</pdf>
+	<pdf url="medias/pdf/test.pdf" actif="true">PDF</pdf>
+	<pdf url="medias/pdf/test.pdf" actif="true">PDF</pdf>
+	<pdf url="medias/pdf/test.pdf" actif="true">PDF</pdf>
+	<pdf url="medias/pdf/test.pdf" actif="true">PDF</pdf>
+</root>
