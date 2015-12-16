@@ -17,12 +17,12 @@ Please note that this is a wip repository. FLA, AS and folders are not cleaned, 
 
 
 ## :electric_plug: CONFIGURATION
-**playerMain.xml:** List of swf to play, scorm version, navigation chosen, ... (see comments)
-**playerLexique.xml:** Glossary items
-**playerPdf.xml:** Ressources files, as pdf
-**playerScores.xml:** Score(s) that goes to the LMS (possibility to have multiple scores using ponderations - total of ponderations must be 1)
+* **playerMain.xml:** List of swf to play, scorm version, navigation chosen, ... (see comments)
+* **playerLexique.xml:** Glossary items
+* **playerPdf.xml:** Ressources files, as pdf
+* **playerScores.xml:** Score(s) that goes to the LMS (possibility to have multiple scores using ponderations - total of ponderations must be 1)
 
-**In index.html, don't forget to indicate the swf dimensions in px** (```// Dimensions du flash:```)
+**In index.html, don't forget to indicate the swf dimensions of your navigation Flash player in px** (```// Dimensions du flash:```)
 
 
 ## :star: FUNCTIONALITIES
@@ -61,3 +61,6 @@ Please note that this is a wip repository. FLA, AS and folders are not cleaned, 
 
 
 **See samples slides FLA inside medias/swf to see working examples of slides**
+
+## License
+Copyright (c) 2015 Jean-Christophe Kleinbourg, licensed under the MIT License (enclosed)
