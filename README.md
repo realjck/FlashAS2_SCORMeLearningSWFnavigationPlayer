@@ -1,19 +1,20 @@
 # Flash AS2 SWF Navigation Player for e-Learning with JS SCORM 1.2 & 2004 connection
 
-These are source code of a Flash navigation player that can be used for e-Learning purposes. It plays swf slides, allowing navigation between slides, with menu, glossary, sound control, etc. It is easely configurable with XML files and establishes SCORM connection when on a LMS. (1.2 or 2004), using the [Pipwerks classes](http://pipwerks.com/)..
+These are source code of a Flash navigation player that can be used for e-Learning purposes. It plays swf slides, allowing navigation between slides, with menu, glossary, sound control, etc. It is easely configurable with XML files and establishes SCORM connection when on a LMS. (1.2 or 2004), using the [Pipwerks classes](http://pipwerks.com/).
 
 Please note that this is a wip repository. FLA, AS and folders are not cleaned, but works perfectly. It has been tested many times on LMS by beta testers for professional purposes.
 
 **:warning: It is in Flash AS2, that means that all the slides have to be in Flash AS2 too. Flash AS2 is not supported anymore on Flash CC IDE, if you intend to use this, you have to work with Flash CS6 IDE or older versions.**
 
 ### AS2 pros for e-Learning
-* Direct access to functions and variables between swf, allowing navigation functions execution directly from loaded swf using the ```_parent``` or ```_root``` terminology
+* Direct access to functions and variables between swf and navigation player, allowing navigation functions execution directly from loaded swf using the ```_parent``` or ```_root``` terminology
 * Quick and easy declaration of mouse events, like ```.onRelease``` ```.onRollOver```, etc.
-* Similar performances than AS3, possibility to use movieclip filters like shadows (available since Flash 9)
+* Possibility to use movieclip filters like shadows (available since Flash 9)
 
 ### AS2 cons
 * No standard error-handling mechanism and possibility to incorpore snippets in buttons, meaning that AS2 requires discipline to maintain a clean and reusable code
-* Not a OOP, meaning that it can be a difficulty for those who first think in Classes and Objects for elaborating functionalities or activities
+* Lack of some complex data types like RegExp, Objects and Dictionnaries
+* Lower performances for complex animations and games (no visible impact on usual eLearning courses)
 
 
 ## :electric_plug: CONFIGURATION
