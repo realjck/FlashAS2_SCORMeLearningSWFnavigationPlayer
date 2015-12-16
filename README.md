@@ -44,20 +44,20 @@ Please note that this is a wip repository. FLA, AS and folders are not cleaned, 
 
 
 ## :star2: FUNCTIONS OF THE NAV THAT YOU CAN CALL FROM LOADED SWF (using  ```_parent.theFunction()``` or ```_root.theFunction()```)
-**finishEcran() :** To tell the navigation that the slide reached its end
-**nextEcran() :** Used to go to the next slide directly, without user to click on the next button (can be useful in some cases)
-**goEcran(n:Number) :** Go to slide ```n```, where first slide = 1
-**disablePrevious() :** Disable previous button (inside quizzes for example)
-**disableNext() :** Disable next button (inside quizzes for example)
-**setScore(indice:Number,pct:Number) :** Store the score ```indice``` at a pourcent value of ```pct```
-**activePdf(indice:Number) :** Enable the Pdf ```indice``` for reading
-**openPdf(indice:Number) :** Open the pdf ```indice``` in a new tab of the browser
+* **finishEcran() :** To tell the navigation that the slide reached its end
+* **nextEcran() :** Used to go to the next slide directly, without user to click on the next button (can be useful in some cases)
+* **goEcran(n:Number) :** Go to slide ```n```, where first slide = 1
+* **disablePrevious() :** Disable previous button (inside quizzes for example)
+* **disableNext() :** Disable next button (inside quizzes for example)
+* **setScore(indice:Number,pct:Number) :** Store the score ```indice``` at a pourcent value of ```pct```
+* **activePdf(indice:Number) :** Enable the Pdf ```indice``` for reading
+* **openPdf(indice:Number) :** Open the pdf ```indice``` in a new tab of the browser
 
 
-## :sparkles: VARIABLES OF THE NAV THAT YOU CAN GET OR SET FROM LOADED SWF (using  ```_parent.theFunction()``` or ```_root.theFunction()```)
-**learnerData:String :** Complementary optional data that is automatically stored in LMS SCORM suspend_data
-**learnerName:String :** Learner information (usually name) that is get from LMS at launch
-**forceCompletion:Boolean :** If set to ```true```, the SCORM completion will be set to Completed on next commit
+## :sparkles: VARIABLES OF THE NAV THAT YOU CAN GET OR SET FROM LOADED SWF (using  ```_parent.theVariable``` or ```_root.theVariable```)
+* **learnerData:String :** Complementary optional data that is automatically stored in LMS SCORM suspend_data
+* **learnerName:String :** Learner information (usually name) that is get from LMS at launch
+* **forceCompletion:Boolean :** If set to ```true```, the SCORM completion will be set to Completed on next commit
 
 
 **See samples slides FLA inside medias/swf to see working examples of slides**
