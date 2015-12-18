@@ -38,6 +38,7 @@ Please note that this is a wip repository. FLA, AS and folders are not cleaned, 
 * Pause and Play loaded swf and movieclips inside
 * Navigation between slides from Menu
 * Possibility to disable slides before previous ones are not readed completly
+* Automatic closing if detected inactivity (set to 5mn, can be configured)
 * Sound control on/off
 * Fullscreen toggle
 * Glossary from XML file
