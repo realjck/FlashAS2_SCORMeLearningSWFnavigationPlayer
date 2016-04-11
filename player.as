@@ -75,6 +75,8 @@ var isWaitClickNext:Boolean;
 var istoc:Array = new Array();
 var learnerData:String = "";
 var forceCompletion:Boolean = false;
+var xmlLoaded:Number = 0;
+var xmlLoadedNeeded:Number = 0;
 
 var timerInactivite:Number = 0;
 var timerInactiviteMax:Number = 300;//temps de deconnexion inactivité en secondes
@@ -182,10 +184,12 @@ contenu.onLoad = function(success) {
 		if ((tmp[0].childNodes[2].firstChild.nodeValue) != "on") {
 			bt_pdf._visible = false;
 		} else {
+			xmlLoadedNeeded++;
 			buildPdf();
 			isPdf = true;
 		}
 		if ((tmp[0].childNodes[3].firstChild.nodeValue) == "on") {
+			xmlLoadedNeeded++;
 			isScores = true;
 			buildScores();
 		} else {
@@ -214,6 +218,12 @@ contenu.onLoad = function(success) {
 		//bypass système sous-titres
 		choisiSon = true;
 		mc_choix_syst_sonore._visible = false;
+		checkXmlLoaded();
+	}
+}
+//vérifie que tous les xml ont été chargés
+function checkXmlLoaded() {
+	if (xmlLoaded == xmlLoadedNeeded) {
 		loadBookmarks();
 	}
 }
@@ -316,6 +326,8 @@ function buildPdf() {
 				//met à jour boutons
 				mc_pdf["btn" + (i + 1)].text.text = pdfName[i];	
 			}
+			xmlLoaded++;
+			checkXmlLoaded();
 		}
 	}
 }
@@ -350,6 +362,8 @@ function buildScores() {
 				ponderations[i] = tmp[1].childNodes[i].firstChild.nodeValue;
 				scores[i] = 0;
 			}
+			xmlLoaded++;
+			checkXmlLoaded();
 		}
 	}
 }
